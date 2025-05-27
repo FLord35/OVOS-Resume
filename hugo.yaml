@@ -58,4 +58,6 @@ params:
           url: "https://www.volgatech.net/"
         date: "2021 - ...."
   
-
+caches:
+  images:
+    dir: :cacheDir/images
