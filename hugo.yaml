@@ -1,0 +1,61 @@
+baseURL: https://example.org/
+languageCode: ru
+title: Резюме
+theme: hugo-profile
+
+params:
+# Hero
+  hero:
+    enable: true
+    intro: "Привет, меня зовут"
+    title: "Антон."
+    subtitle: "И я учусь на программиста"
+    content: "Начинающий разработчик. Пишу, в основном, на c++"
+    image: img/secondme.jpg
+    bottomImage:
+      enable: true
+    roundImage: false # Make hero image circular | default false
+    socialLinks:
+      fontAwesomeIcons:
+        #- icon: fab fa-phone
+        #  info: +7 (987) 700 ....
+        - icon: fab fa-github
+          url: https://github.com/FLord35
+
+  about:
+    enable: true
+    title: "Обо мне"
+    image: "/img/me.jpg"
+    content: |-
+      Начинающий программист, который быстро может научиться чему-то новому. В данный момент учусь на третьем курсе университета ПГТУ. Люблю юмор, готовку, творческие проекты и, конечно же, программирование.
+
+      В свободное время занимаюсь фото- и видеомонтажом, музыкой и лёгкой разработкой для себя.
+    skills:
+      enable: true
+      title: "Основной стек:"
+      items:
+        - "C++"
+        - "Java"
+        - "MySql"
+        - "C#"
+        - "HTML"
+        - "CSS"
+
+        # Education
+  education:
+    enable: true
+    title: "Образование"
+    index: false
+    items:
+      - title: "Среднее общее образование"
+        school:
+          name: "Лицей №11 им. Т.И.Александровой"
+          url: "http://11licey.ru/"
+        date: "2014 - 2021"
+      - title: "Высшее образование, программная инженерия"
+        school:
+          name: "Поволжский государственный технологический университет" 
+          url: "https://www.volgatech.net/"
+        date: "2021 - ...."
+  
+
