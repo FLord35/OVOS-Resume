@@ -1,4 +1,4 @@
-baseURL: https://flord35.github.io/OVOS-Resume
+baseURL: /
 languageCode: ru
 title: Резюме
 theme: hugo-profile
